@@ -5,6 +5,7 @@ mod player;
 use crate::player::PlayerPlugin;
 
 fn main() {
+  println!("hello world");
   App::new()
     .insert_resource(ClearColor(Color::WHITE))
     .add_plugins(DefaultPlugins.set(AssetPlugin {
